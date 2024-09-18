@@ -1,0 +1,31 @@
+#app {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+input:active,
+input:focus {
+  outline-color: hsl(185, 41%, 84%);
+}
+
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Chrome */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Opéra*/
+input::-o-inner-spin-button,
+input::-o-outer-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
