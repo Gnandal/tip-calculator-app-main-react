@@ -12,8 +12,8 @@ interface SelectTipStore {
 
 export const useSelectTipStore = create<SelectTipStore>((set) => ({
   selectTipState: [
-    { name: "5%", checked: false },
-    { name: "10%", checked: true },
+    { name: "5%", checked: true },
+    { name: "10%", checked: false },
     { name: "15%", checked: false },
     { name: "25%", checked: false },
     { name: "50%", checked: false },
@@ -30,9 +30,3 @@ export const useSelectTipStore = create<SelectTipStore>((set) => ({
     })
   },
 }))
-
-
-export const getActiveselectTipName = () => {
-  const selectTips = useSelectTipStore((state) => state.selectTipState);
-  return selectTips.find((selectTip) => selectTip.checked)?.name.toLocaleLowerCase();
-}
