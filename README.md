@@ -49,11 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-Comming soon !!!!
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Controlled & Uncontrolled Form
 
 ### Continued development
 
