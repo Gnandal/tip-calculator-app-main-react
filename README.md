@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/Gnandal/time-tracking-dashboard-react)
-- Live Site URL: [Demo](https://time-tracking-dashboard-react-bay.vercel.app/)
+- Solution URL: [Github Repo](https://github.com/Gnandal/tip-calculator-app-main-react)
+- Live Site URL: [Demo](https://tip-calculator-app-main-react-six.vercel.app/)
 
 ## My process
 
